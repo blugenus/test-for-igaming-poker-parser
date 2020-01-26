@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block body %}
+    <h1>{{ title }}</h1>
+    <p>Uncaught exception: {{ class }}</p>
+    <p>Message: {{ message }}</p>
+    <p>Stack trace:<pre>{{ trace }}</pre></p>
+    <p>Thrown in '{{ file }}' on line {{ line }}</p>
+{% endblock %}

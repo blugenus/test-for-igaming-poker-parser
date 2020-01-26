@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Upload Hands File{% endblock %}
+
+{% block body %}
+    <p><a href="/logout">logout</a></p>
+
+    <form method="post" enctype="multipart/form-data">
+      <div class="container">
+        <label for="uname"><b>Image</b></label>
+        <input type="file" name="fileToUpload" required>
+
+        <button type="submit">Upload</button>
+      </div>
+    </form>
+{% endblock %}
