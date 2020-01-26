@@ -177,5 +177,6 @@ Once you are logged in simply click the 'Choose File' button, choose the rank fi
 From the same 1000 hands provided:
 
 Player 1 won 376
+
 Player 2 won 624
 
