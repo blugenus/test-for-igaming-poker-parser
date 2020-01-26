@@ -8,7 +8,7 @@ date_default_timezone_set('UTC'); // ensuring the php time is UTC.
 
 
 session_start(); 
-if( !$_SESSION['loggedin'] ) $_SESSION['loggedin'] = false; 
+if( !isset($_SESSION['loggedin']) || !$_SESSION['loggedin'] ) $_SESSION['loggedin'] = false; 
 
 /**
  * adding composer autoloader
