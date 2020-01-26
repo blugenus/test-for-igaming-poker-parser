@@ -1,4 +1,4 @@
-# Test for a company in teh igaming industry.
+# Test for a company in the igaming industry.
 
 ## Target
 
@@ -47,7 +47,7 @@ Create a new database
 MariaDB [(none)]> CREATE DATABASE newtestdb;
 ```
 
-Create new user and assign priviliges ( eg: 'username' and 'password' with full privileges on newtestdb.* )
+Create new user and assign privileges ( eg: 'username' and 'password' with full privileges on newtestdb.* )
 
 ```
 MariaDB [(none)]> GRANT ALL PRIVILEGES ON newtestdb.* TO 'username'@'localhost' IDENTIFIED BY 'password';
